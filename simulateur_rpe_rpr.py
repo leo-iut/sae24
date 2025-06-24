@@ -11,7 +11,7 @@ MQTT_BROKER_PORT = 1883                 # Broker port
 MQTT_TOPIC = "SAE24/E103/amplitudes"    # MQTT topic
 
 NUM_BITS = 10
-MAX_AMPLITUDE = 2000.0 
+MAX_AMPLITUDE = 5000.0 
 
 def amplitude_to_bits(amplitude):
     """
