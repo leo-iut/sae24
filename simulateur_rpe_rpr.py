@@ -22,7 +22,7 @@ def amplitude_to_bits(amplitude):
     value_on_10_bits = int((amplitude / MAX_AMPLITUDE) * (2**NUM_BITS - 1))
    
     # This is the data that would be sent via FSK
-    # ex: format(5, '010b') -> '0000000101'
+    # ex: format(5, '0101') -> '0000000101'
     return format(value_on_10_bits, f'0{NUM_BITS}b')
 
 def main():
